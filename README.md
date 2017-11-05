@@ -4,17 +4,8 @@ inspired by... https://emby.media/community/index.php?/topic/49900-automated-com
 ##
 install packages
 ##
-pkg update;
-pkg install nano;
-pkg install autoconf;
-pkg install automake;
-pkg install libtool;
-pkg install argtable;
-pkg install handbrake;
-pkg install ffmpeg;
-pkg install bash;
-pkg install gcc6;
-pkg install git;
+pkg update;pkg install nano;pkg install autoconf;pkg install automake;pkg install libtool;pkg install argtable;pkg install handbrake;pkg install ffmpeg;pkg install bash;pkg install gcc6;pkg install git;
+#
 pkg set -o devel/pkg-config:devel/pgkconf
 pkg install -f devel/pkgconf
 ## 
