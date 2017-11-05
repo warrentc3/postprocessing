@@ -18,10 +18,11 @@ set env variables for nano and gcc
 ##
 cd  /
 nano .cshrc 
-##
+#
 Then change/add these lines 
-##
+#
 sentev	CC	gcc6
+#
 setenv  EDITOR  nano
 ## 
 pull Comskip/comchap from git
