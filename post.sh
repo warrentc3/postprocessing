@@ -18,6 +18,7 @@ while (1)
                 comcut --ffmpeg=/usr/bin/ffmpeg --comskip=/usr/bin/comskip --lockfile=/tmp/comchap.lock --comskip-ini=/media/Comskip/comskip.ini "$1" "$b"
                 HandBrakeCLI --input "$b" --output "$c"  --preset-import-file /media/comchap/hb-dvr.json
                 rm "$b"
+                break
         endif
 end
 exit
