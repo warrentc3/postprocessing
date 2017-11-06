@@ -86,7 +86,7 @@
       "VideoTune": "",
       "VideoProfile": "auto",
       "VideoLevel": "4.0",
-      "VideoOptionExtra": "vbv-bufsize=8192:vbv-maxrate=2560:ref=4:direct=auto:bframes=3:psy-rd=1.0,0.15:deblock=0,0:b-adapt=2:trellis=2:analyse=all:me=umh:subme=10:aq-strength=0.9:rc-lookahead=60:fast-pskip=0:cabac=1:qpmin=3:keyint=100:min-keyint=1:merange=32:scenecut=40:no-dct-decimate=1:b-pyramid=off:qcomp=0.9:weightb=1:weightp=1",
+      "VideoOptionExtra": "vbv-bufsize=8192:vbv-maxrate=2560:ref=4:direct=auto:bframes=3:psy-rd=1.0,0.15:deblock=0,0:b-adapt=2:trellis=2:analyse=all:me=umh:subme=10:aq-strength=0.9:rc-lookahead=60:fast-pskip=0:cabac=1:qpmin=3:keyint=100:min-keyint=1:merange=32:scenecut=40:no-dct-decimate=1:qcomp=0.9:weightb=1:weightp=1",
       "VideoQualityType": 2,
       "VideoQualitySlider": 20.0,
       "VideoQSVDecode": true,
