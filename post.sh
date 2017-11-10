@@ -13,9 +13,9 @@ if ( ! -e "$b" ) then
 echo "Running Comcut"
 comcut --ffmpeg=/usr/bin/ffmpeg --comskip=/usr/bin/comskip --lockfile=/tmp/comchap.lock --comskip-ini=/media/Comskip/comskip.ini "$1" "$b"
 echo "Comcut complete"
-endif
 else
 echo "Comcut already done"
+endif
 break
 end
 
