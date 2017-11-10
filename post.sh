@@ -8,16 +8,14 @@ set b = `echo "$grab/$filename"_cut.ts`
 set c = `echo "$grab/$filename".mp4`
 sleep $w1
 
-if ( -e "$b" ) then
-echo "Comcut already done"
-endif
-
 while (1)
 if ( ! -e "$b" ) then
 echo "Running Comcut"
 comcut --ffmpeg=/usr/bin/ffmpeg --comskip=/usr/bin/comskip --lockfile=/tmp/comchap.lock --comskip-ini=/media/Comskip/comskip.ini "$1" "$b"
 echo "Comcut complete"
 endif
+else
+echo "Comcut already done"
 break
 end
 
