@@ -1,4 +1,5 @@
 #!/bin/csh
+set path = ($path /usr/local/bin)
 set w1 = `jot -r 1 2 15`
 set filename = `printf "%s " $1:t:r:r`
 set grab = `printf "%s " $1:h`
@@ -30,4 +31,5 @@ end
 
 HandBrakeCLI --input "$b" --output "$c" --preset-import-file /media/comchap/hb-dvr.json
 
-rm $b
+rm "$b"
+mv "$1" "/media/PlexDVR/.plexignore/$a"
