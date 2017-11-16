@@ -3,7 +3,7 @@ set path = ($path /usr/local/bin)
 set w1 = `jot -r 1 2 15`
 set filename = `printf "%s " $1:t:r:r`
 set grab = `printf "%s " $1:h`
-set a = `echo $filename.ts`
+set a = `echo "$filename".ts`
 set b = `echo "$grab/$filename"_cut.ts`
 set c = `echo "$grab/$filename".mp4`
 sleep $w1
