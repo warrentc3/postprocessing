@@ -6,7 +6,7 @@ pkg upgrade
 pkg install nano autoconf automake libtool argtable gcc6 bash
 pkg install handbrake
 pkg install ffmpeg
-pkg set -o devel/pkg-config:devel/pgkconf
+pkg set -o devel/pkg-config:devel/pkgconf
 pkg install -f devel/pkgconf
 ## 
 ## set symlinks for nano and ffmpeg
